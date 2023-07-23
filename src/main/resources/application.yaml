@@ -1,0 +1,15 @@
+logging.config: classpath:log4j2.xml
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+spotify:
+  oauth:
+    url: https://accounts.spotify.com/api/token
+  client:
+    url: https://api.spotify.com
+

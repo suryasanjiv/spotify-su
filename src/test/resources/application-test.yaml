@@ -1,0 +1,12 @@
+logging.config: classpath:log4j2-test.xml
+
+feign:
+client:
+  config:
+    default:
+      connectTimeout: 5000
+      readTimeout: 5000
+      loggerLevel: basic
+sample:
+  client:
+    url: http://localhost:9090/
