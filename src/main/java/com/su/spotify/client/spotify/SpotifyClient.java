@@ -1,4 +1,4 @@
-package com.su.spotify.client;
+package com.su.spotify.client.spotify;
 
 
 import org.springframework.cloud.openfeign.FeignClient;
