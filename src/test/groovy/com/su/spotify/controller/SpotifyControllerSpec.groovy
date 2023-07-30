@@ -13,7 +13,7 @@ class SpotifyControllerSpec extends Specification {
     @Autowired(required = true)
     private SpotifyController spotifyController
 
-    def "GetName"() {
+    def "search track"() {
         when: ""
         def actualResult = spotifyController.getTrack("quevedo", "columbia")
 
