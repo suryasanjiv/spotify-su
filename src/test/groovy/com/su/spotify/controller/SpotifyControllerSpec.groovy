@@ -8,14 +8,14 @@ import spock.lang.Specification
 
 @TestPropertySource(locations = "classpath:application-test.yaml")
 @SpringBootTest(classes = SpotifyApplication.class)
-class SpotifyControllerTest extends Specification {
+class SpotifyControllerSpec extends Specification {
 
     @Autowired(required = true)
     private SpotifyController spotifyController
 
     def "GetName"() {
         when: ""
-        def actualResult = spotifyController.getArtist("0TnOYISbd1XYRBk9myaseg")
+        def actualResult = spotifyController.getTrack("quevedo", "columbia")
 
         then: ""
         actualResult

@@ -1,0 +1,13 @@
+curl -X POST "https://accounts.spotify.com/api/token" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -H "Authorization: Basic NmM3NDA3ZmRmMzcyNGU2ZThiNWZjYTU5ZTFhZmQzY2E6OWIyZGMxOGM5MDYyNDYyNDk5ZmM5NWUzNjFjMjNiMWM=" \
+     -d "grant_type=client_credentials"
+
+     -H "Authorization: Basic NmM3NDA3ZmRmMzcyNGU2ZThiNWZjYTU5ZTFhZmQzY2E6OWIyZGMxOGM5MDYyNDYyNDk5ZmM5NWUzNjFjMjNiMWM=" \
+
+NmM3NDA3ZmRmMzcyNGU2ZThiNWZjYTU5ZTFhZmQzY2E6OWIyZGMxOGM5MDYyNDYyNDk5ZmM5NWUzNjFjMjNiMWMK
+
+
+
+
+{"access_token":"BQDvooOmTGGytLHwtRnaCaSxo6mYev01qJmbgGGS0pJdqoL2XqJJNw5hP5P4SoHMUxYafTLAOhLfkn20BNwz5vw5UjSNHvxJUf1M-vu5qhC9yAkCwr8","token_type":"Bearer","expires_in":3600}(base) MacBook-Pro:usr suryasanjiv$
