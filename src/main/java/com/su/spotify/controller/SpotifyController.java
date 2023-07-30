@@ -21,7 +21,7 @@ public class SpotifyController {
     }
 
     @GetMapping("/testing/{artist}/{track}")
-    public String getTrack(@PathVariable("artist") String artist, String track) {
+    public String getTrack(@PathVariable(value = "artist") String artist, @PathVariable(value = "track") String track) {
         return spotifySearchService.searchTrack(artist, track).toString();
     }
 
